@@ -97,6 +97,28 @@ You can adjust the size of the loader by passing a CSS class to the `class` prop
 
 ::
 
+### Text
+
+You can display a loading message below the spinner using the `text` prop.
+
+::ShowCase
+
+:DocsLoaderSizes
+
+#code
+
+<!-- automd:file src="../../app/components/content/Docs/Loader/DocsLoaderText.vue" code lang="vue" -->
+
+```vue [DocsLoaderSizes.vue]
+<template>
+  <UiLoader text="Fetching data..." />
+</template>
+```
+
+<!-- /automd -->
+
+::
+
 ### Colors
 
 You can adjust the color of the loader by passing a CSS class to the `class` prop.
